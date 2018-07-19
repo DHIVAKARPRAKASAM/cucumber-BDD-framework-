@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Amazon password Test_scenario",
+        "description": "",
+        "id": "amazon-password--feature;amazon-password-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6630266280,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already in login page",
+            "match": {
+              "location": "LoginStepDefinition.User_in_Loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92727261,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Amazon",
+            "match": {
+              "location": "LoginStepDefinition.Loginpage_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135223866,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"8668058560\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8668058560",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_emailid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1536272671,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on continue",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162028227,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on password page",
+            "match": {
+              "location": "LoginStepDefinition.Password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306022092,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user entering the password \"Dhiva9442772472\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dhiva9442772472",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5553710268,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on continue",
+            "match": {
+              "location": "LoginStepDefinition.clicks_on_continue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Amazon password Test_scenario",
+        "description": "",
+        "id": "amazon-password--feature;amazon-password-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5169702545,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already in login page",
+            "match": {
+              "location": "LoginStepDefinition.User_in_Loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175618426,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Amazon",
+            "match": {
+              "location": "LoginStepDefinition.Loginpage_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162815001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"9442772472\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9442772472",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_emailid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2553961148,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on continue",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11917095,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on password page",
+            "match": {
+              "location": "LoginStepDefinition.Password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121702504,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user entering the password \"qwertyu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qwertyu",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3139858039,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on continue",
+            "match": {
+              "location": "LoginStepDefinition.clicks_on_continue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon password  Feature",
+    "description": "",
+    "id": "amazon-password--feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/dhiva/eclipse-workspace/AmazonBDDframework/src/main/java/Features/password.feature"
+  }
+]

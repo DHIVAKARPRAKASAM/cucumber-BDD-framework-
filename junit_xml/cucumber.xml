@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="25.751826">
+<testcase classname="Amazon password  Feature" name="Amazon password Test_scenario" time="14.416251">
+<system-out><![CDATA[Given User is already in login page.........................................passed
+When title of login page is Amazon..........................................passed
+Then user enters "8668058560"...............................................passed
+Then user clicks on continue................................................passed
+Then user is on password page...............................................passed
+Then user entering the password "Dhiva9442772472"...........................passed
+Then clicks on continue.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon password  Feature" name="Amazon password Test_scenario 2" time="11.335575">
+<system-out><![CDATA[Given User is already in login page.........................................passed
+When title of login page is Amazon..........................................passed
+Then user enters "9442772472"...............................................passed
+Then user clicks on continue................................................passed
+Then user is on password page...............................................passed
+Then user entering the password "qwertyu"...................................passed
+Then clicks on continue.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
